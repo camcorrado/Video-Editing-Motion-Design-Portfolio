@@ -1,13 +1,242 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Cinzel Decorative";
+  src: url(https://fonts.gstatic.com/s/cinzeldecorative/v8/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMxpazyD.woff2)
+    format("woff2");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Amiri";
+  src: url(https://fonts.gstatic.com/s/amiri/v14/J7aRnpd8CGxBHpUutLMS7JNK.woff2)
+    format("woff2");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Amiri-Regular", serif;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: #323232;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+nav {
+  background-color: #0F0F12;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-image: linear-gradient(
+      90deg,
+      #0F0F12,
+      #6495ed,
+      #0F0F12
+    )
+    0 0 1 0;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.nameAndTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.name, .title {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h1 > span {
+  color: #6495ed;
+  font-family: "Cinzel Decorative", serif;
+  font-size: 26px;
+  line-height: 26px;
+}
+
+h1:first-letter {
+  font-size: 57px;
+}
+
+.firstName, .firstTitle {
+  margin-right: 10px;
+}
+
+h2 {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 19px;
+}
+
+.reelGallery {
+  padding: 125px 10px 0px 10px;
+}
+
+.reelContainerList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.reel {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  padding: 0px 10px;
+}
+
+.reelCard {
+  padding:56.25% 0 0 0;
+  position:relative;
+}
+
+.reelPlayer {
+  border-radius: 25px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: #0F0F12;
+}
+
+.hero {
+  margin: 20px 20px 75px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #0F0F12;
+  align-self: center;
+}
+
+.headShotContainer {
+  padding: 20px 0px 20px 20px;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+}
+
+.mainHeadShot {
+  height: 100%;
+}
+
+.bio {
+  padding: 20px;
+  max-width: 750px;
+}
+
+.bio > p {
+  text-indent: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.lastP {
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #0F0F12;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-image: linear-gradient(
+    90deg,
+    #0F0F12,
+    #6495ed,
+    #0F0F12
+  )
+  1 0 0 0;
+border-style: solid;
+border-width: 2px;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.navLinks > li {
+  list-style: none;
+  margin: 0px 5px;
+}
+
+.navLinks > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks > li > a:hover {
+  color: #6495ed;
+}
+
+.faIcon {
+  font-size: 26px;
+}
+
+@media (orientation: portrait), (max-width: 800px) {
+  .reelContainerList {
+    flex-direction: column;
+  }
+
+  .reelCard {
+    margin: 10px 0px;
+  }
+
+  .reel {
+    height: auto;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .headShotContainer {
+    padding: 20px 20px 0px 20px;
+  }
+
+  .bio {
+    margin-left: 0px;
+  }
 }
