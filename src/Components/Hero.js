@@ -31,7 +31,7 @@ export default class Hero extends Component {
           <p>
             Beyond the pixels, you will find me indulging in a medley of
             hobbies, from gardening with my cat to listening to audiobooks.
-            There are also plenty of gaming as well as horror movie marathons -
+            There is also plenty of gaming as well as horror movie marathons -
             on VHS!
           </p>
           <p className="lastP">
