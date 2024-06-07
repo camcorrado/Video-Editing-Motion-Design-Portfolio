@@ -36,8 +36,9 @@ export default class Hero extends Component {
             the whimsical, weird, & well-crafted. More recently, I ventured into
             Full-Stack Web Development with Thinkful, expanding my skill set to
             encompass the intricate world of coding. With a tool set that spans
-            from Adobe After Effects & Premiere to HTML, CSS, & JavaScript, I
-            thrive in various realms of digital storytelling.
+            from <span>Adobe After Effects & Premiere</span> to{" "}
+            <span>HTML, CSS, & JavaScript</span>, I thrive in various realms of
+            digital storytelling.
           </p>
           <p>
             Beyond the pixels, you will find me indulging in a medley of
