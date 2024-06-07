@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import headshot from "../images/HEADSHOT 2024 CIRCLE.png";
 
 export default class Hero extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class Hero extends Component {
             <img
               alt="Cam Corrado Headshot"
               className="mainHeadShot"
-              src="https://i.imgur.com/HKH6Shx.png"
+              src={headshot}
             />
           </div>
         </section>
