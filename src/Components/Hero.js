@@ -21,7 +21,7 @@ export default class Hero extends Component {
           </p>
           <p>
             Spanning corporate & creative realms, I bring a diverse background
-            specializing in 2D animation, title graphics, bumpers, asset
+            specializing in 2D motion design, animated logos & titles, asset
             packages, music videos, & educational content. From my tenure at TIM
             Global, where I curated streaming content for multiple streaming
             sites, to my role at Music with Miss Merry, directing educational
