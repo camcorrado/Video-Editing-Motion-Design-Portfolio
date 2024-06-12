@@ -22,13 +22,13 @@ export default class Hero extends Component {
           </p>
           <p>
             Spanning corporate & creative realms, I bring a diverse background
-            specializing in 2D motion design, animated logos & titles, asset
-            packages, music videos, & educational content. From my tenure at TIM
-            Global, where I curated streaming content for multiple streaming
-            sites, to my role at Music with Miss Merry, directing educational
-            children's music videos, I've cultivated a keen eye for detail & a
-            passion for storytelling. Consistently, I deliver high-quality
-            content tailored to diverse audiences & platforms.
+            specializing in animated logos & titles, asset packages, music
+            videos, & educational content. From my tenure at TIM Global, where I
+            curated streaming content for multiple streaming sites, to my role
+            at Music with Miss Merry, directing educational children's music
+            videos, I've cultivated a keen eye for detail & a passion for
+            storytelling. Consistently, I deliver high-quality content tailored
+            to diverse audiences & platforms.
           </p>
           <p>
             SUNY Purchase's Film & Media Studies program built the foundation
