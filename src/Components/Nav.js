@@ -10,7 +10,7 @@ export default class Nav extends Component {
             <h1>Corrado</h1>
           </div>
           <div className="title">
-            <h2 className="firstTitle">Video Editor &</h2>
+            <h2 className="firstTitle">Senior Video Editor &</h2>
             <h2>Motion Designer</h2>
           </div>
         </section>
