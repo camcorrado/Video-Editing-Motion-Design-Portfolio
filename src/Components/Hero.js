@@ -23,10 +23,12 @@ export default class Hero extends Component {
           <p>
             Spanning corporate & creative realms, I bring a diverse background
             specializing in animated logos & titles, asset packages, music
-            videos, & educational content. From my tenure at TIM Global, where I
-            curated streaming content for multiple streaming sites, to my role
-            at Music with Miss Merry, directing educational children's music
-            videos, I've cultivated a keen eye for detail & a passion for
+            videos, & educational content. From my tenure at Music with Miss
+            Merry, where I utilized proven techniques to deliver educational
+            entertainment to younger audiences, to my role at TIM Global, where
+            I conceptualized, produced, and marketed short and long form
+            content, products, services, and technologies across six streaming
+            sites, I've cultivated a keen eye for detail & a passion for
             storytelling. Consistently, I deliver high-quality content tailored
             to diverse audiences & platforms.
           </p>
@@ -41,14 +43,13 @@ export default class Hero extends Component {
             digital storytelling.
           </p>
           <p>
-            Beyond the pixels, you will find me indulging in a medley of
-            hobbies, from gardening with my cat to listening to audiobooks.
-            There is also plenty of gaming as well as horror movie marathons -
-            on VHS!
+            Additionally, you may often find me relaxing in the garden with my
+            cat, playing board or video games, and watching horror movies - on
+            VHS!
           </p>
           <p className="lastP">
-            Thanks for stopping by! I hope you have enjoyed my reels. I look
-            forward to our future together.
+            Thanks for stopping by! I hope you have enjoyed my content. I look
+            forward to a future together.
           </p>
         </section>
       </section>
