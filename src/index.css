@@ -1,13 +1,19 @@
-@font-face {
-  font-family: "Cinzel Decorative";
-  src: url(https://fonts.gstatic.com/s/cinzeldecorative/v8/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMxpazyD.woff2)
-    format("woff2");
+.cinzel-decorative-regular {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: "Amiri";
-  src: url(https://fonts.gstatic.com/s/amiri/v14/J7aRnpd8CGxBHpUutLMS7JNK.woff2)
-    format("woff2");
+.amiri-regular {
+  font-family: "Amiri", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amiri-bold {
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 * {
@@ -79,6 +85,9 @@ h1 > span {
   font-family: "Cinzel Decorative", serif;
   font-size: 26px;
   line-height: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 h1:first-letter {
@@ -92,6 +101,9 @@ h1:first-letter {
 h2 {
   font-family: "Cinzel Decorative", serif;
   font-size: 19px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .reelGallery {
@@ -231,6 +243,15 @@ border-width: 2px;
   h1,
 h1 > span {
   margin: auto;
+  font-size: 26px;
+}
+
+h1:first-letter {
+  font-size: 57px;
+}
+
+h2 {
+  font-size: 19px;
 }
 
 .title {

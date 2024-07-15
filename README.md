@@ -1,4 +1,4 @@
-# Video Editing & Motion Design Portfolio
+# Creative Director & Senior Video Editor Portfolio
 
 ## Built With
 

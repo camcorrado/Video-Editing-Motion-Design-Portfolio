@@ -16,40 +16,41 @@ export default class Hero extends Component {
         </section>
         <section className="bio">
           <p>
-            With over a decade of professional experience in Video Editing and
-            Motion Design, I craft visually captivating stories and bring charm
-            to every endeavor.
+            With over a decade of professional experience in creative directing
+            and video editing, I craft visually captivating stories and bring
+            charm to every endeavor.
           </p>
           <p>
-            Spanning corporate and creative realms, I bring a diverse background
-            specializing in animated logos and titles, asset packages, music
-            videos, and educational content. From my tenure at Music with Miss
-            Merry, where I utilized proven techniques to deliver educational
-            entertainment to younger audiences, to my role at TIM Global, where
-            I conceptualized, produced, and marketed short and long form
-            content, products, services, and technologies across six streaming
-            sites, I've cultivated a keen eye for detail and a passion for
-            storytelling. Consistently, I deliver high-quality content tailored
-            to diverse audiences and platforms.
+            Spanning corporate and independent realms, I possess a diverse
+            background specializing in children's educational content, music
+            videos, animated logos/titles, and asset packages. From my tenure at{" "}
+            <span>Music with Miss Merry</span>, where I directed and edited
+            numerous music videos from concept to completion, to my role at{" "}
+            <span>TIM Global</span>, where I produced weekly content and assets
+            for six streaming sites, I've cultivated a passion for storytelling
+            and optimized workflows, bringing clients' stories to life through
+            high-quality content tailored to diverse audiences and platforms.
           </p>
           <p>
-            SUNY Purchase's Film & Media Studies program built the foundation
-            for my career, establishing my core skills and emboldening my eye
-            for the whimsical, weird, and well-crafted. More recently, I
-            ventured into Full-Stack Web Development with Thinkful, expanding my
-            skill set to encompass the intricate world of coding. With a tool
-            set that spans from <span>Adobe After Effects and Premiere</span> to{" "}
+            <span>SUNY Purchase's Film & Media Studies</span> program built the
+            foundation for my career, establishing my core skills and
+            emboldening my eye for the whimsical, weird, and well-crafted. More
+            recently, I ventured into{" "}
+            <span>Full-Stack Web Development with Thinkful</span>, expanding my
+            skill set to encompass the intricate world of coding, which enabled
+            me to build this portfolio from the ground up! With a tool set that
+            spans from <span>Adobe After Effects and Premiere</span> to{" "}
             <span>HTML, CSS, and JavaScript</span>, I thrive in various realms
             of digital storytelling.
           </p>
           <p>
-            Additionally, you may often find me relaxing in the garden with my
-            cat, playing board or video games, and watching horror movies - on
-            VHS!
+            Additionally, you may often find me in my garden-side hammock with
+            my cat, playing board or video games, and watching horror movies -
+            on VHS!
           </p>
           <p className="lastP">
-            Thanks for stopping by! I hope you have enjoyed my content. I look
-            forward to a future together.
+            Thank you for visiting! I hope you've enjoyed my content and I look
+            forward to the possibility of working together in the future.
           </p>
         </section>
       </section>

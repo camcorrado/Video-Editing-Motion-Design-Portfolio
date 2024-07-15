@@ -3,8 +3,6 @@ import Nav from "./Components/Nav";
 import Hero from "./Components/Hero";
 import ReelGallery from "./Components/Reels/ReelGallery";
 import Footer from "./Components/Footer";
-import "./fonts/Amiri-Regular.ttf";
-import "./fonts/CinzelDecorative-Regular.ttf";
 
 class App extends Component {
   render() {
