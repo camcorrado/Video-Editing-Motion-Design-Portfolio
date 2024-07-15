@@ -9,7 +9,7 @@ export default class ReelGallery extends Component {
         <ul className="reelContainerList">
           {Reels.map((reel) => (
             <li key={reel.name} className="reel">
-              <ReelCard reel={reel} />
+              <ReelCard reel={reel} key={reel.id} />
             </li>
           ))}
         </ul>
