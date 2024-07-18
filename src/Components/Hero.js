@@ -44,9 +44,9 @@ export default class Hero extends Component {
             of digital storytelling.
           </p>
           <p>
-            Additionally, you may often find me in my garden-side hammock with
-            my cat, playing board or video games, and watching horror movies -
-            on VHS!
+            Outside of work, I enjoy spending time in my garden-side hammock
+            with my cat, playing board and video games, and watching horror
+            movies on VHS.
           </p>
           <p className="lastP">
             Thank you for visiting! I hope you've enjoyed my content and I look
